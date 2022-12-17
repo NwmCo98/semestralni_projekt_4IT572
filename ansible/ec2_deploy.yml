@@ -61,7 +61,7 @@
 
     - name: Get project files from GIT
       git: 
-        repo: "https://github.com/NwmCo98/4IT572_semestralka.git"
+        repo: "https://github.com/NwmCo98/semestralni_projekt_4IT572.git"
         dest: ./app
     - name: Build docker image
       shell: cd app && docker build -t eshop:latest .
