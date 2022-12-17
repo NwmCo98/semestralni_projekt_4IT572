@@ -11,6 +11,7 @@ class App extends Component {
       <React.Fragment>
         <GithubCorner />
         <main>
+          <h2>Aplikace 2</h2>
           <Filter />
           <Shelf />
         </main>
